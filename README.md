@@ -21,7 +21,7 @@
 
 <!-- TODO: reemplazar la URL siguiente por el enlace definitivo de Vercel. Debe dirigir a la portada principal. -->
 
-🔗 **[Ver el proyecto publicado en Vercel](https://TU-PROYECTO.vercel.app)**
+🔗 **[Ver el proyecto publicado en Vercel](https://front-pfo-2.vercel.app/)**
 
 El deploy abre una portada única desde la cual se puede acceder al prompt original y a las dos landing pages generadas.
 
