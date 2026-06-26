@@ -15,7 +15,7 @@
 | **Institución** | Instituto Superior de Formación Técnica N.º 29 |
 | **Trabajo** | Práctica Formativa Obligatoria 2 |
 | **Año** | 2026 |
-| **Carrera / Comisión** | _Completar si corresponde_ |
+| **Carrera / Comisión** | Tecnicatura Superior en Desarrollo de Software | Comisión D |
 
 ## Deploy unificado
 
