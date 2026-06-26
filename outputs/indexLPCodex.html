@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La Guarida del Dragón: juegos de mesa, estrategia y rol para jugadores de toda Argentina.">
+  <meta name="theme-color" content="#080506">
+  <title>La Guarida del Dragón | Juegos de mesa y rol</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="La Guarida del Dragón, inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path d="M26 4c8 4 13 10 12 19l6 4-7 3c-3 9-11 14-20 12 7-3 10-8 8-13-2-6-8-6-12-3 0-8 4-14 11-16l2-6Z"/>
+            <path class="brand-eye" d="m30 17 5 1-4 3Z"/>
+          </svg>
+        </span>
+        <span><b>La Guarida</b><small>del Dragón</small></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#comunidad">Comunidad</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <a class="nav-cta" href="#catalogo">Ver catálogo <span aria-hidden="true">→</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-texture" aria-hidden="true"></div>
+      <div class="embers" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Juegos de mesa &amp; rol · Argentina</p>
+          <h1 id="hero-title">Toda gran aventura<br><em>empieza en una mesa.</em></h1>
+          <p class="hero-lead">Clásicos, desafíos expertos y mundos de rol elegidos para héroes, clanes y mesas argentinas.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalogo">Explorar el catálogo <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#contacto">Pedir recomendación</a>
+          </div>
+          <div class="hero-trust" aria-label="Beneficios destacados">
+            <div><strong>+80</strong><span>aventuras elegidas</span></div>
+            <div><strong>Todo el país</strong><span>envíos a Argentina</span></div>
+            <div><strong>1 a 1</strong><span>asesoría del gremio</span></div>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Ilustración decorativa de un dado de veinte caras entre llamas" role="img">
+          <div class="moon-rune"><span>ᚷ</span></div>
+          <div class="dragon-silhouette" aria-hidden="true">
+            <svg viewBox="0 0 600 520">
+              <path d="M476 124c-52 2-87 28-112 68-18-49-56-80-111-92 27 24 32 51 23 80-42-20-84-12-118 16 46-5 78 12 98 47-54 10-92 40-113 89 52-27 97-26 137 4-26 40-32 82-18 127 12-51 39-85 82-103 31 41 73 60 126 56-45-18-71-49-79-93 46-8 82-32 106-72-44 18-82 16-114-8 18-57 49-96 93-119Z"/>
+            </svg>
+          </div>
+          <div class="dice-wrap" aria-hidden="true">
+            <div class="dice-glow"></div>
+            <svg class="d20" viewBox="0 0 300 320">
+              <defs>
+                <linearGradient id="diceFace" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0" stop-color="#37140f"/>
+                  <stop offset="1" stop-color="#100707"/>
+                </linearGradient>
+              </defs>
+              <path class="d20-body" d="m150 12 118 68 10 134-128 94L22 214 32 80Z"/>
+              <path d="M150 12 94 112l56 67 56-67Z"/>
+              <path d="M32 80 94 112l56-100ZM268 80l-62 32-56-100ZM22 214l72-102 56 67ZM278 214l-72-102-56 67ZM22 214l128 94v-129ZM278 214l-128 94V179Z"/>
+              <text x="150" y="139" text-anchor="middle">20</text>
+            </svg>
+            <div class="flame flame-a"></div><div class="flame flame-b"></div><div class="flame flame-c"></div>
+          </div>
+          <div class="hero-seal"><span>✦</span><small>Curado por<br>jugadores</small></div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span> Descendé a la guarida</div>
+    </section>
+
+    <section class="marquee" aria-label="Categorías de la tienda">
+      <div class="marquee-track">
+        <span>Estrategia</span><i>✦</i><span>Cooperativos</span><i>✦</i><span>Juegos de rol</span><i>✦</i><span>Familiares</span><i>✦</i><span>Importados</span><i>✦</i><span>Narrativos</span><i>✦</i>
+        <span aria-hidden="true">Estrategia</span><i aria-hidden="true">✦</i><span aria-hidden="true">Cooperativos</span><i aria-hidden="true">✦</i><span aria-hidden="true">Juegos de rol</span><i aria-hidden="true">✦</i><span aria-hidden="true">Familiares</span><i aria-hidden="true">✦</i>
+      </div>
+    </section>
+
+    <section class="about section" id="nosotros" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> El corazón de la guarida</p>
+          <h2 id="about-title">No vendemos cajas.<br><em>Abrimos portales.</em></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">En La Guarida del Dragón reunimos juegos familiares, expertos y de rol para que cada mesa encuentre su próxima aventura.</p>
+          <p>Desde clásicos como Catan y Carcassonne hasta cooperativos épicos y campañas narrativas. Seleccionamos títulos de editoriales reconocidas y te guiamos según tu grupo, experiencia y ganas de desafío.</p>
+          <a class="text-link" href="#contacto">Contanos qué juega tu grupo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="benefits" aria-label="Nuestros beneficios">
+          <article class="benefit reveal">
+            <span class="benefit-number">01</span><div class="benefit-icon">⌁</div>
+            <h3>Selección con criterio</h3><p>Recomendaciones por nivel, duración, cantidad de jugadores y estilo de mesa.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="benefit-number">02</span><div class="benefit-icon">✧</div>
+            <h3>Joyas &amp; preventas</h3><p>Clásicos, novedades, importados y campañas que vale la pena descubrir.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="benefit-number">03</span><div class="benefit-icon">⚔</div>
+            <h3>Una comunidad real</h3><p>Consejos, mesas abiertas y un gremio que siempre tiene lugar para uno más.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog section" id="catalogo" aria-labelledby="catalog-title">
+      <div class="container">
+        <div class="catalog-head reveal">
+          <div class="section-heading">
+            <p class="eyebrow"><span></span> Elegí tu próxima campaña</p>
+            <h2 id="catalog-title">Reliquias de la <em>guarida</em></h2>
+          </div>
+          <p>Una selección para cada tipo de aventurero. Todos los precios son de referencia.</p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filtrar juegos por categoría">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="filter" type="button" data-filter="familiar" aria-pressed="false">Familiar</button>
+          <button class="filter" type="button" data-filter="estrategia" aria-pressed="false">Estrategia</button>
+          <button class="filter" type="button" data-filter="experto" aria-pressed="false">Experto</button>
+          <button class="filter" type="button" data-filter="cooperativo" aria-pressed="false">Cooperativo</button>
+          <button class="filter" type="button" data-filter="rol" aria-pressed="false">Rol</button>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+          <article class="product-card reveal" data-category="familiar estrategia">
+            <div class="product-visual visual-catan" role="img" aria-label="Paisaje geométrico de campos y montañas inspirado en Catan">
+              <span class="product-badge">Más elegido</span><div class="hexscape"><i></i><i></i><i></i><i></i><i></i></div><b>CATAN</b>
+            </div>
+            <div class="product-body"><span class="tag">Familiar · Estrategia</span><h3>Catan: El Juego</h3><p>Negociá, construí y disputá cada ruta. El clásico moderno para abrir cualquier noche.</p><div class="product-meta"><span>3–4 jugadores</span><span>75 min</span></div><div class="product-buy"><div><small>Desde</small><strong>$57.500 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="Catan: El Juego">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card reveal" data-category="familiar estrategia">
+            <div class="product-visual visual-expansion" role="img" aria-label="Barcos y rutas sobre un mapa antiguo, expansión de Catan">
+              <div class="map-lines"></div><div class="ship">◢</div><b>5—6</b><small>EXPANSIÓN</small>
+            </div>
+            <div class="product-body"><span class="tag">Expansión · Familiar</span><h3>Catan: 5–6 jugadores</h3><p>Sumá dos lugares a la mesa y convertí la isla en una negociación todavía más intensa.</p><div class="product-meta"><span>5–6 jugadores</span><span>Requiere base</span></div><div class="product-buy"><div><small>Desde</small><strong>$34.600 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="Catan: ampliación 5–6 jugadores">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card reveal" data-category="familiar estrategia">
+            <div class="product-visual visual-carcassonne" role="img" aria-label="Murallas de una ciudad medieval inspiradas en Carcassonne">
+              <div class="castle"><i></i><i></i><i></i></div><div class="meeple"></div><b>CARCASSONNE</b>
+            </div>
+            <div class="product-body"><span class="tag">Familiar · Losetas</span><h3>Carcassonne</h3><p>Construí caminos, ciudades y monasterios en un mapa que nunca se repite.</p><div class="product-meta"><span>2–5 jugadores</span><span>40 min</span></div><div class="product-buy"><div><small>Desde</small><strong>$41.700 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="Carcassonne">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card reveal" data-category="estrategia experto">
+            <div class="product-visual visual-bigbox" role="img" aria-label="Gran fortaleza medieval para Carcassonne Big Box">
+              <span class="product-badge">Caja épica</span><div class="big-fort">♜</div><b>BIG BOX</b><small>CARCASSONNE</small>
+            </div>
+            <div class="product-body"><span class="tag">Estrategia · Colección</span><h3>Carcassonne Big Box</h3><p>El juego base y once expansiones para conquistar territorio durante muchas partidas.</p><div class="product-meta"><span>2–6 jugadores</span><span>80+ min</span></div><div class="product-buy"><div><small>Desde</small><strong>$79.200 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="Carcassonne Big Box">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card product-featured reveal" data-category="cooperativo estrategia experto">
+            <div class="product-visual visual-ring" role="img" aria-label="Anillo dorado frente a montañas oscuras inspirado en El Señor de los Anillos">
+              <span class="product-badge">Aventura épica</span><div class="mountains"></div><div class="ring"></div><b>EL DESTINO</b><small>DE LA COMUNIDAD</small>
+            </div>
+            <div class="product-body"><span class="tag">Cooperativo · Fantasía</span><h3>El Señor de los Anillos</h3><p>Destino de la Comunidad. Un viaje cooperativo para decidir el futuro de la Tierra Media.</p><div class="product-meta"><span>1–5 jugadores</span><span>60–150 min</span></div><div class="product-buy"><div><small>Desde</small><strong>$199.000 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="El Señor de los Anillos: Destino de la Comunidad">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card reveal" data-category="estrategia experto">
+            <div class="product-visual visual-seti" role="img" aria-label="Radiotelescopio bajo un cielo estrellado inspirado en SETI">
+              <div class="orbit"><i></i></div><div class="dish"></div><b>SETI</b><small>BÚSQUEDA DE VIDA EXTRATERRESTRE</small>
+            </div>
+            <div class="product-body"><span class="tag">Experto · Sci-Fi</span><h3>SETI</h3><p>Liderá una institución científica y rastreá el cosmos en busca de señales de vida.</p><div class="product-meta"><span>1–4 jugadores</span><span>160 min</span></div><div class="product-buy"><div><small>Desde</small><strong>$173.600 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="SETI">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card reveal" data-category="familiar estrategia">
+            <div class="product-visual visual-azul" role="img" aria-label="Mosaico ornamental azul inspirado en Azul Duel">
+              <div class="tiles"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><b>AZUL</b><small>DUEL</small>
+            </div>
+            <div class="product-body"><span class="tag">Parejas · Abstracto</span><h3>Azul / Azul Duel</h3><p>Creá el mosaico más hermoso en un duelo elegante de patrones y decisiones filosas.</p><div class="product-meta"><span>2–4 jugadores</span><span>45 min</span></div><div class="product-buy"><div><small>Desde</small><strong>$64.800 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="Azul / Azul Duel">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card reveal" data-category="familiar cooperativo">
+            <div class="product-visual visual-dungeon" role="img" aria-label="Dado cayendo en una mazmorra inspirado en Dungeon Fighter">
+              <div class="dungeon-door"></div><div class="mini-die">6</div><b>DUNGEON</b><small>FIGHTER</small>
+            </div>
+            <div class="product-body"><span class="tag">Destreza · Cooperativo</span><h3>Dungeon Fighter</h3><p>Dados, puntería y monstruos. Una mazmorra caótica para grupos que se ríen del peligro.</p><div class="product-meta"><span>1–6 jugadores</span><span>60 min</span></div><div class="product-buy"><div><small>Desde</small><strong>$54.300 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="Dungeon Fighter">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card reveal" data-category="cooperativo estrategia">
+            <div class="product-visual visual-onirim" role="img" aria-label="Puerta onírica con símbolos abstractos inspirada en Onirim">
+              <div class="dream-door"><i></i></div><b>ONIRIM</b><small>LABERINTO DE SUEÑOS</small>
+            </div>
+            <div class="product-body"><span class="tag">Solitario · Onírico</span><h3>Onirim</h3><p>Encontrá las puertas antes de que las pesadillas cierren el laberinto de los sueños.</p><div class="product-meta"><span>1–2 jugadores</span><span>15 min</span></div><div class="product-buy"><div><small>Desde</small><strong>$32.700 <em>ARS</em></strong></div><button class="add-button" type="button" data-product="Onirim">Consultar <span>＋</span></button></div></div>
+          </article>
+
+          <article class="product-card role-card reveal" data-category="rol experto">
+            <div class="product-visual visual-role" role="img" aria-label="Grimorio, dado y espada para representar juegos de rol">
+              <span class="product-badge">Para campañas</span><div class="book"><i>20</i></div><div class="sword"></div><b>GRIMORIOS</b><small>&amp; CAMPAÑAS</small>
+            </div>
+            <div class="product-body"><span class="tag">Rol · Fantasía</span><h3>Dragonbane, Pathfinder &amp; más</h3><p>Manuales, cajas de inicio y accesorios para tu primera campaña o la próxima gran saga.</p><div class="product-meta"><span>Mesas de rol</span><span>Asesoría incluida</span></div><div class="product-buy"><div><small>Precio</small><strong>Consultar</strong></div><button class="add-button" type="button" data-product="Juegos de rol">Consultar <span>＋</span></button></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="community section" id="comunidad" aria-labelledby="community-title">
+      <div class="container">
+        <div class="community-head reveal">
+          <p class="eyebrow"><span></span> Historias junto al fuego</p>
+          <h2 id="community-title">El gremio ya <em>tiró los dados.</em></h2>
+          <p>Reseñas de aventureros de distintos rincones de Buenos Aires.</p>
+        </div>
+        <div class="testimonial-grid">
+          <figure class="testimonial reveal">
+            <div class="rating" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Compré Catan para jugar con amigos y terminé sumando expansiones. Me asesoraron muy bien.”</blockquote>
+            <figcaption><span class="avatar">MA</span><div><strong>Martín A.</strong><small>CABA · Jugador frecuente</small></div></figcaption>
+          </figure>
+          <figure class="testimonial featured reveal">
+            <div class="quote-mark" aria-hidden="true">“</div><div class="rating" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Buscaba algo más experto y me recomendaron SETI. Fue exactamente el desafío que quería.”</blockquote>
+            <figcaption><span class="avatar">LR</span><div><strong>Laura R.</strong><small>Quilmes · Estratega de la mesa</small></div></figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="rating" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Arrancamos con rol por primera vez y nos guiaron con manuales y dados. Súper claro.”</blockquote>
+            <figcaption><span class="avatar">NF</span><div><strong>Nico F.</strong><small>Lanús · Director novato</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact-shell">
+        <div class="contact-copy reveal">
+          <p class="eyebrow"><span></span> La puerta está abierta</p>
+          <h2 id="contact-title">¿No sabés qué elegir?<br><em>Invocá al gremio.</em></h2>
+          <p>Contanos quiénes se sientan a tu mesa y qué tipo de aventura buscan. Te ayudamos a encontrar ese juego que todos van a querer repetir.</p>
+          <div class="contact-detail"><span>✦</span><div><small>Horario del gremio</small><strong>Lun a sáb · 10 a 19 h</strong></div></div>
+          <div class="contact-detail"><span>⌖</span><div><small>Desde Buenos Aires</small><strong>Envíos a todo el país</strong></div></div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-title"><span>✦</span><h3>Dejá tu mensaje</h3><small>Respondemos dentro de las 24 h hábiles.</small></div>
+          <div class="form-row">
+            <label>Nombre <input type="text" name="name" autocomplete="name" placeholder="¿Cómo te llamás?" required></label>
+            <label>Email <input type="email" name="email" autocomplete="email" placeholder="vos@ejemplo.com" required></label>
+          </div>
+          <label>Tipo de consulta
+            <select name="type" required>
+              <option value="" selected disabled>Elegí una opción</option>
+              <option>Comprar un juego</option><option>Recomendación</option><option>Juegos de rol</option><option>Preventa</option><option>Otro</option>
+            </select>
+          </label>
+          <label>Mensaje <textarea name="message" rows="4" placeholder="Somos cuatro, nos gustan los juegos cooperativos…" required></textarea></label>
+          <button class="button button-primary form-submit" type="submit">Enviar mensaje al gremio <span aria-hidden="true">→</span></button>
+          <p class="form-note">Esta es una maqueta visual: el formulario no envía datos reales.</p>
+          <div class="form-success" role="status" aria-live="polite" hidden><span>✓</span><div><strong>¡Mensaje recibido, aventurero!</strong><small>La simulación fue exitosa. No se enviaron datos reales.</small></div></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">✦</span><span><b>La Guarida</b><small>del Dragón</small></span></a><p>Tu refugio para jugar, descubrir<br>y volver a la mesa.</p></div>
+      <div><h3>Explorá</h3><a href="#catalogo">Catálogo</a><a href="#nosotros">La Guarida</a><a href="#comunidad">Comunidad</a><a href="#contacto">Contacto</a></div>
+      <div><h3>El gremio</h3><a href="#contacto">Recomendaciones</a><a href="#contacto">Preventas</a><a href="#contacto">Envíos</a><a href="#contacto">Preguntas frecuentes</a></div>
+      <div><h3>Encontranos</h3><a href="#contacto">Instagram ↗</a><a href="#contacto">WhatsApp ↗</a><a href="#contacto">Discord ↗</a><a href="#contacto">YouTube ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><p>© 2026 La Guarida del Dragón</p><p>Precios de referencia. Sitio ficticio desarrollado con fines académicos.</p><a href="#inicio" aria-label="Volver al inicio">↑</a></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><span>✓</span><div><strong>Sumado a tu pergamino</strong><small id="toast-product">Producto agregado a la lista de consulta.</small></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
