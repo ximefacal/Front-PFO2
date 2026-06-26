@@ -30,8 +30,8 @@ El deploy abre una portada única desde la cual se puede acceder al prompt origi
 | Recurso | Agente / modelo | Acceso local |
 |---|---|---|
 | Prompt utilizado | Consigna común | [Ver archivo](./prompt-utilizado.txt) |
-| Landing Page — Primer agente | Codex / GPT-5 | [Abrir landing](./outputs/indexLPCodex.html) |
-| Landing Page — Segundo agente | Claude / modelo por confirmar | [Abrir landing](./segunda-pagina/index.html) |
+| Landing Page — Primer agente | Codex / GPT-5.5 | [Abrir landing](./outputs/indexLPCodex.html) |
+| Landing Page — Segundo agente | Claude / Sonnet 4.6 | [Abrir landing](./segunda-pagina/index.html) |
 
 ## Prompt exacto utilizado
 
