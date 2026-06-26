@@ -267,7 +267,7 @@ Al finalizar, entregá:
 
 ## Capturas de pantalla
 
-### Landing Page — Primer agente: Codex / GPT-5
+### Landing Page — Primer agente: Codex / GPT-5.5
 
 <!--
 TODO: guardar aquí una captura real de la primera landing:
@@ -276,7 +276,7 @@ docs/capturas/landing-codex.png
 
 ![Captura de la landing page generada por Codex](./docs/capturas/landing-codex.png)
 
-### Landing Page — Segundo agente: Claude
+### Landing Page — Segundo agente: Claude / Sonnet 4.6
 
 <!--
 TODO: guardar aquí una captura real de la segunda landing:
